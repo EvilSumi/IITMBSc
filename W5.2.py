@@ -130,3 +130,8 @@ def do_set_operation(set1, set2, set3, item1, item2):
     print(sorted((set2 - set3) | (set3 - set2)))
 
     return set1,sorted(set1),sorted(set2),sorted(set3)
+
+#make changes here/example
+list_mutating_operations([1,2,3,4],1,4)
+list_non_mutating_operations([1,2,3,4],1,4)
+do_set_operation({1,2},{3,4},{5,6},1,6)
